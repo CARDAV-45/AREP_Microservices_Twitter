@@ -1,0 +1,45 @@
+# ===========================
+# Java / Maven
+# ===========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ===========================
+# Node / Frontend
+# ===========================
+node_modules/
+dist/
+.vite/
+
+# ===========================
+# Variables de entorno 
+# ===========================
+.env
+.env.local
+.env.*.local
+
+# ===========================
+# IDEs
+# ===========================
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+nbproject/
+nb-configuration.xml
+
+# ===========================
+# Sistema operativo
+# ===========================
+.DS_Store
+Thumbs.db
+
