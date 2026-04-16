@@ -14,6 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       domain={domain}
       clientId={clientId}
       cacheLocation="localstorage"
+      allowInsecureRequests={true}
       authorizationParams={{
         redirect_uri: window.location.origin,
         audience: audience,
